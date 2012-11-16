@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :tipo %><br />
-    <%= f.number_field :tipo %>
+    <%= f.select :tipo, PizzaTipo.all(:order=>:nome).collect{|p| [p.nome, p.id]} %>
   </div>
   <div class="field">
     <%= f.label :valor %><br />
