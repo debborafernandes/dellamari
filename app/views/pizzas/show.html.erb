@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nome:</b>
+  <%= @pizza.nome %>
+</p>
+
+<p>
+  <b>Tipo:</b>
+  <%= @pizza.tipo %>
+</p>
+
+<p>
+  <b>Valor:</b>
+  <%= @pizza.valor %>
+</p>
+
+
+<%= link_to 'Edit', edit_pizza_path(@pizza) %> |
+<%= link_to 'Back', pizzas_path %>

@@ -1,0 +1,21 @@
+<%= form_for(@pizza_tipo) do |f| %>
+  <% if @pizza_tipo.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@pizza_tipo.errors.count, "error") %> prohibited this pizza_tipo from being saved:</h2>
+
+      <ul>
+      <% @pizza_tipo.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

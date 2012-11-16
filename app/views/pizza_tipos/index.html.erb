@@ -1,0 +1,23 @@
+<h1>Listing pizza_tipos</h1>
+
+<table>
+  <tr>
+    <th>Nome</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @pizza_tipos.each do |pizza_tipo| %>
+  <tr>
+    <td><%= pizza_tipo.nome %></td>
+    <td><%= link_to 'Show', pizza_tipo %></td>
+    <td><%= link_to 'Edit', edit_pizza_tipo_path(pizza_tipo) %></td>
+    <td><%= link_to 'Destroy', pizza_tipo, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Pizza tipo', new_pizza_tipo_path %>
