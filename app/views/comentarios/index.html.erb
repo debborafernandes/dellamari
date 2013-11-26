@@ -1,0 +1,34 @@
+
+<h1>Lista de comentarios</h1>
+
+<%= form_tag comentarios_path, method: :get do %>
+  <p>
+    <%= text_field_tag :query, params[:query] %>
+    <%= submit_tag "Busca", name: nil %>
+  </p>
+<% end %>
+
+<br />
+<table class="table">
+  <tr>
+    <th>Autor</th>
+    <th>Assunto</th>
+    <th>Comentario</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @comentarios.each do |comentario| %>
+  <tr>
+    <td><%= comentario.autor %></td>
+    <td><%= comentario.assunto %></td>
+    <td><%= comentario.comentario %></td>
+    <td><%= link_to 'Show', comentario %></td>
+    <td><%= link_to 'Edit', edit_comentario_path(comentario) %></td>
+    <td><%= link_to 'Destroy', comentario, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'New Comentario', new_comentario_path %>

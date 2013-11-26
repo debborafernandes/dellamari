@@ -6540,3 +6540,3574 @@ Served asset /produtos.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-11-16 15:46:25 -0200
 Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-25 16:37:18 -0200
+Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT `produtos`.* FROM `produtos` [0m
+  [1m[35mEXPLAIN (90.7ms)[0m  EXPLAIN SELECT `produtos`.* FROM `produtos` 
+EXPLAIN for: SELECT `produtos`.* FROM `produtos` 
++----+-------------+----------+------+---------------+------+---------+------+------+-------+
+| id | select_type | table    | type | possible_keys | key  | key_len | ref  | rows | Extra |
++----+-------------+----------+------+---------------+------+---------+------+------+-------+
+|  1 | SIMPLE      | produtos | ALL  | NULL          | NULL | NULL    | NULL |    2 |       |
++----+-------------+----------+------+---------------+------+---------+------+------+-------+
+1 row in set (0.09 sec)
+
+  Rendered produtos/index.html.erb within layouts/application (15.9ms)
+Compiled application.css  (2ms)  (pid 28379)
+Compiled application.js  (14ms)  (pid 28379)
+Completed 200 OK in 1028ms (Views: 297.4ms | ActiveRecord: 638.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /bootstrap_and_overrides.css - 200 OK (17ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /comentarios.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (27ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (4ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /comentarios.js - 200 OK (2ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /pizzas.js - 200 OK (1ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /pizza_tipos.js - 200 OK (1ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /produtos.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:20 -0200
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2013-11-25 16:37:48 -0200
+Processing by PizzasController#index as HTML
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT `pizzas`.* FROM `pizzas` [0m
+  Rendered pizzas/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 295ms (Views: 34.2ms | ActiveRecord: 258.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:49 -0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 16:37:49 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:49 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:49 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:49 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 16:37:49 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:23:39 -0200
+Processing by ComentariosController#index as HTML
+Mysql2::Error: Table 'dellamari.comentarios' doesn't exist: SHOW FULL FIELDS FROM `comentarios`
+Completed 500 Internal Server Error in 283ms
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Table 'dellamari.comentarios' doesn't exist: SHOW FULL FIELDS FROM `comentarios`):
+  app/controllers/comentarios_controller.rb:5:in `index'
+
+
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (21.3ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (90.9ms)
+  [1m[36m (101.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateProdutos (20121023193931)
+Migrating to CreatePizzaTipos (20121023200549)
+Migrating to CreatePizzas (20121023201445)
+Migrating to CreateComentarios (20131125181333)
+  [1m[35m (788.4ms)[0m  CREATE TABLE `comentarios` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `autor` varchar(255), `assunto` varchar(255), `comentario` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (266.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20131125181333')[0m
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:25:56 -0200
+Processing by ComentariosController#index as HTML
+  [1m[36mComentario Load (0.3ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` [0m
+  Rendered comentarios/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 439ms (Views: 367.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:25:56 -0200
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:56 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /comentarios.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /jquery.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /comentarios.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /pizzas.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /produtos.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (58ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:25:57 -0200
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started POST "/comentarios?method=get" for 127.0.0.1 at 2013-11-25 17:26:01 -0200
+Processing by ComentariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pvQuqqanNrixAuqz3K3jPC9F4WJGfT9yH2b2yc1gnxA=", "query"=>"teste", "method"=>"get"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (99.6ms)[0m  [1mINSERT INTO `comentarios` (`assunto`, `autor`, `comentario`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, '2013-11-25 19:26:01', '2013-11-25 19:26:01')[0m
+  [1m[35m (66.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/comentarios/1
+Completed 302 Found in 4110ms (ActiveRecord: 166.5ms)
+
+
+Started GET "/comentarios/1" for 127.0.0.1 at 2013-11-25 17:26:05 -0200
+Processing by ComentariosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mComentario Load (154.1ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 1 LIMIT 1[0m
+  Rendered comentarios/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 262ms (Views: 103.9ms | ActiveRecord: 154.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:06 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Processing by ComentariosController#index as HTML
+  [1m[35mComentario Load (19.3ms)[0m  SELECT `comentarios`.* FROM `comentarios` 
+  Rendered comentarios/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 40ms (Views: 18.4ms | ActiveRecord: 19.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:16 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started DELETE "/comentarios/1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Processing by ComentariosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pvQuqqanNrixAuqz3K3jPC9F4WJGfT9yH2b2yc1gnxA=", "id"=>"1"}
+  [1m[36mComentario Load (0.5ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (75.9ms)[0m  [1mDELETE FROM `comentarios` WHERE `comentarios`.`id` = 1[0m
+  [1m[35m (54.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/comentarios
+Completed 302 Found in 236ms (ActiveRecord: 131.1ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Processing by ComentariosController#index as HTML
+  [1m[36mComentario Load (0.2ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` [0m
+  Rendered comentarios/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /scaffolds.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:26 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/pizzas" for 127.0.0.1 at 2013-11-25 17:26:32 -0200
+Processing by PizzasController#index as HTML
+  [1m[35mPizza Load (0.1ms)[0m  SELECT `pizzas`.* FROM `pizzas` 
+  Rendered pizzas/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 53ms (Views: 50.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:32 -0200
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:32 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:32 -0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:32 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:32 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:32 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:32 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:32 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:32 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:32 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:32 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:33 -0200
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/produtos" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT `produtos`.* FROM `produtos` [0m
+  Rendered produtos/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 11.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /comentarios.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:26:34 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Processing by ComentariosController#index as HTML
+  [1m[35mComentario Load (0.2ms)[0m  SELECT `comentarios`.* FROM `comentarios` 
+  Rendered comentarios/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:07 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:08 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:08 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:08 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:08 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:08 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:08 -0200
+Served asset /pizzas.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:08 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:28:08 -0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/comentarios/new" for 127.0.0.1 at 2013-11-25 17:33:27 -0200
+
+SyntaxError (/home/debora/rails/dellamari/app/models/comentario.rb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+	tire.search(load: true) params do
+	                              ^):
+  app/controllers/comentarios_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (18.5ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.4ms)
+
+
+Started GET "/comentarios/new" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Processing by ComentariosController#new as HTML
+  Rendered comentarios/_form.html.erb (77.8ms)
+  Rendered comentarios/new.html.erb within layouts/application (109.2ms)
+Completed 200 OK in 297ms (Views: 152.3ms | ActiveRecord: 106.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /comentarios.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:40 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:41 -0200
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:41 -0200
+Served asset /comentarios.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:41 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:41 -0200
+Served asset /pizzas.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:41 -0200
+Served asset /produtos.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:41 -0200
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started POST "/comentarios" for 127.0.0.1 at 2013-11-25 17:33:58 -0200
+Processing by ComentariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pvQuqqanNrixAuqz3K3jPC9F4WJGfT9yH2b2yc1gnxA=", "comentario"=>{"autor"=>"Débora", "assunto"=>"Pizza Banana", "comentario"=>"Banana é ruim."}, "commit"=>"Create Comentario"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (120.8ms)[0m  INSERT INTO `comentarios` (`assunto`, `autor`, `comentario`, `created_at`, `updated_at`) VALUES ('Pizza Banana', 'Débora', 'Banana é ruim.', '2013-11-25 19:33:58', '2013-11-25 19:33:58')
+  [1m[36m (109.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/comentarios/2
+Completed 302 Found in 312ms (ActiveRecord: 230.5ms)
+
+
+Started GET "/comentarios/2" for 127.0.0.1 at 2013-11-25 17:33:58 -0200
+Processing by ComentariosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mComentario Load (39.6ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 2 LIMIT 1
+  Rendered comentarios/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 75ms (Views: 29.9ms | ActiveRecord: 39.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:33:59 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Processing by ComentariosController#index as HTML
+  [1m[36mComentario Load (0.1ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 2 LIMIT 1[0m
+  Rendered comentarios/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 379ms (Views: 33.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:01 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios/new" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Processing by ComentariosController#new as HTML
+  Rendered comentarios/_form.html.erb (3.9ms)
+  Rendered comentarios/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:03 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:04 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:04 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:04 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:04 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:04 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:04 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:04 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:04 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:04 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:04 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/comentarios" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Processing by ComentariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pvQuqqanNrixAuqz3K3jPC9F4WJGfT9yH2b2yc1gnxA=", "comentario"=>{"autor"=>"Luana", "assunto"=>"Pizza Atum", "comentario"=>"Atum é peixe."}, "commit"=>"Create Comentario"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (83.4ms)[0m  [1mINSERT INTO `comentarios` (`assunto`, `autor`, `comentario`, `created_at`, `updated_at`) VALUES ('Pizza Atum', 'Luana', 'Atum é peixe.', '2013-11-25 19:34:17', '2013-11-25 19:34:17')[0m
+  [1m[35m (62.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/comentarios/3
+Completed 302 Found in 301ms (ActiveRecord: 146.1ms)
+
+
+Started GET "/comentarios/3" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Processing by ComentariosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mComentario Load (24.2ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 3 LIMIT 1[0m
+  Rendered comentarios/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 14.5ms | ActiveRecord: 24.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:17 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:34:19 -0200
+Processing by ComentariosController#index as HTML
+  [1m[35mComentario Load (180.3ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (2, 3)
+  Rendered comentarios/index.html.erb within layouts/application (184.7ms)
+Completed 200 OK in 389ms (Views: 22.2ms | ActiveRecord: 180.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:20 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios/new" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Processing by ComentariosController#new as HTML
+  Rendered comentarios/_form.html.erb (2.6ms)
+  Rendered comentarios/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 37ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:22 -0200
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started POST "/comentarios" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Processing by ComentariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pvQuqqanNrixAuqz3K3jPC9F4WJGfT9yH2b2yc1gnxA=", "comentario"=>{"autor"=>"Flavia", "assunto"=>"Pizza doce", "comentario"=>"A melhor pizza doce é a de banana."}, "commit"=>"Create Comentario"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (92.3ms)[0m  INSERT INTO `comentarios` (`assunto`, `autor`, `comentario`, `created_at`, `updated_at`) VALUES ('Pizza doce', 'Flavia', 'A melhor pizza doce é a de banana.', '2013-11-25 19:34:42', '2013-11-25 19:34:42')
+  [1m[36m (84.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/comentarios/4
+Completed 302 Found in 193ms (ActiveRecord: 177.3ms)
+
+
+Started GET "/comentarios/4" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Processing by ComentariosController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mComentario Load (0.3ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 4 LIMIT 1
+  Rendered comentarios/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:42 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:34:44 -0200
+Processing by ComentariosController#index as HTML
+  [1m[36mComentario Load (11.6ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (4, 2, 3)[0m
+  Rendered comentarios/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 92ms (Views: 20.1ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:45 -0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/comentarios?method=get" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Processing by ComentariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pvQuqqanNrixAuqz3K3jPC9F4WJGfT9yH2b2yc1gnxA=", "query"=>"banana", "method"=>"get"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (301.7ms)[0m  [1mINSERT INTO `comentarios` (`assunto`, `autor`, `comentario`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, '2013-11-25 19:34:52', '2013-11-25 19:34:52')[0m
+  [1m[35m (134.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/comentarios/5
+Completed 302 Found in 448ms (ActiveRecord: 436.5ms)
+
+
+Started GET "/comentarios/5" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Processing by ComentariosController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mComentario Load (55.9ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 5 LIMIT 1[0m
+  Rendered comentarios/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 70ms (Views: 12.7ms | ActiveRecord: 55.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:52 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:53 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:53 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:53 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:53 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:53 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:53 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:53 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:53 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:53 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:34:54 -0200
+Processing by ComentariosController#index as HTML
+  [1m[35mComentario Load (0.3ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (5, 4, 2, 3)
+  Rendered comentarios/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 44ms (Views: 35.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /comentarios.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:34:55 -0200
+Served asset /application.js - 304 Not Modified (24ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Processing by ComentariosController#index as HTML
+  [1m[36mComentario Load (0.1ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (5, 4, 2, 3)[0m
+  Rendered comentarios/index.html.erb within layouts/application (76.9ms)
+Completed 200 OK in 114ms (Views: 41.1ms | ActiveRecord: 65.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /comentarios.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:37:54 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Processing by ComentariosController#index as HTML
+  [1m[35mComentario Load (0.1ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (5, 4, 2, 3)
+  Rendered comentarios/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 45ms (Views: 13.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:05 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:06 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:06 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:06 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:06 -0200
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:06 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:06 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:06 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:06 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:39:06 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/comentarios?method=get" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Processing by ComentariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pvQuqqanNrixAuqz3K3jPC9F4WJGfT9yH2b2yc1gnxA=", "query"=>"ban", "method"=>"get"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (189.7ms)[0m  INSERT INTO `comentarios` (`assunto`, `autor`, `comentario`, `created_at`, `updated_at`) VALUES (NULL, NULL, NULL, '2013-11-25 19:40:09', '2013-11-25 19:40:09')
+  [1m[36m (96.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/comentarios/6
+Completed 302 Found in 299ms (ActiveRecord: 286.0ms)
+
+
+Started GET "/comentarios/6" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Processing by ComentariosController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mComentario Load (23.7ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 6 LIMIT 1
+  Rendered comentarios/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 10.7ms | ActiveRecord: 23.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (33ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:09 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Processing by ComentariosController#index as HTML
+  [1m[36mComentario Load (0.3ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (5, 4, 6, 2, 3)[0m
+  Rendered comentarios/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 24ms (Views: 15.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:40:55 -0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started DELETE "/comentarios/6" for 127.0.0.1 at 2013-11-25 17:40:58 -0200
+Processing by ComentariosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pvQuqqanNrixAuqz3K3jPC9F4WJGfT9yH2b2yc1gnxA=", "id"=>"6"}
+  [1m[35mComentario Load (0.1ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 6 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (61.3ms)[0m  DELETE FROM `comentarios` WHERE `comentarios`.`id` = 6
+  [1m[36m (86.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/comentarios
+Completed 302 Found in 156ms (ActiveRecord: 147.6ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:40:58 -0200
+Processing by ComentariosController#index as HTML
+  [1m[35mComentario Load (19.7ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (5, 4, 6, 2, 3)
+  Rendered comentarios/index.html.erb within layouts/application (62.5ms)
+Completed 500 Internal Server Error in 70ms
+
+ActiveRecord::RecordNotFound (Couldn't find all Comentarios with IDs (5, 4, 6, 2, 3) (found 4 results, but was looking for 5)):
+  app/views/comentarios/index.html.erb:22:in `_app_views_comentarios_index_html_erb__2937473588376085178_70310594564960'
+  app/controllers/comentarios_controller.rb:6:in `index'
+
+
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/comentarios/6" for 127.0.0.1 at 2013-11-25 17:41:04 -0200
+Processing by ComentariosController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mComentario Load (0.2ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 6 LIMIT 1[0m
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Comentario with id=6):
+  app/controllers/comentarios_controller.rb:13:in `show'
+
+
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Processing by ComentariosController#index as HTML
+  [1m[35mComentario Load (0.4ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (5, 4, 2, 3)
+  Rendered comentarios/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 46ms (Views: 38.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:06 -0200
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started DELETE "/comentarios/5" for 127.0.0.1 at 2013-11-25 17:41:15 -0200
+Processing by ComentariosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pvQuqqanNrixAuqz3K3jPC9F4WJGfT9yH2b2yc1gnxA=", "id"=>"5"}
+  [1m[36mComentario Load (44.0ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (67.4ms)[0m  [1mDELETE FROM `comentarios` WHERE `comentarios`.`id` = 5[0m
+  [1m[35m (59.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/comentarios
+Completed 302 Found in 177ms (ActiveRecord: 170.7ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:41:15 -0200
+Processing by ComentariosController#index as HTML
+  [1m[36mComentario Load (0.3ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (5, 4, 2, 3)[0m
+  Rendered comentarios/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 13ms
+
+ActiveRecord::RecordNotFound (Couldn't find all Comentarios with IDs (5, 4, 2, 3) (found 3 results, but was looking for 4)):
+  app/views/comentarios/index.html.erb:22:in `_app_views_comentarios_index_html_erb__2937473588376085178_70310594564960'
+  app/controllers/comentarios_controller.rb:6:in `index'
+
+
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.9ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:41:20 -0200
+Processing by ComentariosController#index as HTML
+  [1m[35mComentario Load (21.4ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (4, 2, 3)
+  Rendered comentarios/index.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 56ms (Views: 23.8ms | ActiveRecord: 21.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:21 -0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Processing by ComentariosController#index as HTML
+  [1m[36mComentario Load (0.2ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (4, 2, 3)[0m
+  Rendered comentarios/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 18ms (Views: 12.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /application.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:29 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=ban" for 127.0.0.1 at 2013-11-25 17:41:39 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"ban"}
+  Rendered comentarios/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 250ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comentarios.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /comentarios.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /twitter/bootstrap.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comentarios.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /comentarios.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizza_tipos.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /pizza_tipos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pizzas.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /pizzas.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/produtos.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /produtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 17:41:40 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=ban" for 127.0.0.1 at 2013-11-25 18:01:12 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"ban"}
+  Rendered comentarios/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 77ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-25 18:01:13 -0200
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-25 18:01:13 -0200
+Served asset /application.js - 200 OK (26ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=ban" for 127.0.0.1 at 2013-11-25 18:01:22 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"ban"}
+  Rendered comentarios/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=" for 127.0.0.1 at 2013-11-25 18:03:40 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>""}
+  [1m[36mComentario Load (0.1ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (4, 2, 3)[0m
+  Rendered comentarios/index.html.erb within layouts/application (63.7ms)
+Completed 200 OK in 74ms (Views: 48.5ms | ActiveRecord: 18.2ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=banana" for 127.0.0.1 at 2013-11-25 18:03:50 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"banana"}
+  [1m[35mComentario Load (0.3ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (2, 4)
+  Rendered comentarios/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 103ms (Views: 5.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=atum" for 127.0.0.1 at 2013-11-25 18:03:58 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"atum"}
+  [1m[36mComentario Load (0.3ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 3 LIMIT 1[0m
+  Rendered comentarios/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 14ms (Views: 5.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=atum" for 127.0.0.1 at 2013-11-26 11:15:46 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"atum"}
+Completed 500 Internal Server Error in 8955ms
+
+Tire::Search::SearchRequestFailed (400 : {"error":"SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[acB71Q45QI6iTZznPHRjFg][comentarios][1]: SearchParseException[[comentarios][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{\"query\":{\"query_string\":{\"query\":\"atum\",\"default_operador\":\"AND\"}},\"filter\":{\"range\":{\"created_at\":{\"lte\":\"2013-11-26T13:15:50Z\"}}},\"size\":10}]]]; nested: QueryParsingException[[comentarios] [query_string] query does not support [default_operador]]; }{[acB71Q45QI6iTZznPHRjFg][comentarios][0]: SearchParseException[[comentarios][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{\"query\":{\"query_string\":{\"query\":\"atum\",\"default_operador\":\"AND\"}},\"filter\":{\"range\":{\"created_at\":{\"lte\":\"2013-11-26T13:15:50Z\"}}},\"size\":10}]]]; nested: QueryParsingException[[comentarios] [query_string] query does not support [default_operador]]; }{[acB71Q45QI6iTZznPHRjFg][comentarios][2]: SearchParseException[[comentarios][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{\"query\":{\"query_string\":{\"query\":\"atum\",\"default_operador\":\"AND\"}},\"filter\":{\"range\":{\"created_at\":{\"lte\":\"2013-11-26T13:15:50Z\"}}},\"size\":10}]]]; nested: QueryParsingException[[comentarios] [query_string] query does not support [default_operador]]; }{[66L3-fjLRmWy43bSUg_3xw][comentarios][3]: RemoteTransportException[[Jocasta][inet[/10.0.0.29:9301]][search/phase/query]]; nested: SearchParseException[[comentarios][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{\"query\":{\"query_string\":{\"query\":\"atum\",\"default_operador\":\"AND\"}},\"filter\":{\"range\":{\"created_at\":{\"lte\":\"2013-11-26T13:15:50Z\"}}},\"size\":10}]]]; nested: QueryParsingException[[comentarios] [query_string] query does not support [default_operador]]; }{[66L3-fjLRmWy43bSUg_3xw][comentarios][4]: RemoteTransportException[[Jocasta][inet[/10.0.0.29:9301]][search/phase/query]]; nested: SearchParseException[[comentarios][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{\"query\":{\"query_string\":{\"query\":\"atum\",\"default_operador\":\"AND\"}},\"filter\":{\"range\":{\"created_at\":{\"lte\":\"2013-11-26T13:15:50Z\"}}},\"size\":10}]]]; nested: QueryParsingException[[comentarios] [query_string] query does not support [default_operador]]; }]","status":400}):
+  app/models/comentario.rb:8:in `search'
+  app/controllers/comentarios_controller.rb:4:in `index'
+
+
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (74.6ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=" for 127.0.0.1 at 2013-11-26 11:15:59 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>""}
+  [1m[35mComentario Load (0.1ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (4, 2, 3)
+  Rendered comentarios/index.html.erb within layouts/application (88.5ms)
+Completed 200 OK in 1188ms (Views: 70.3ms | ActiveRecord: 77.3ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:16:01 -0200
+Served asset /application.js - 304 Not Modified (123ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:16:01 -0200
+Served asset /application.css - 304 Not Modified (38ms)
+
+
+Started GET "/comentarios/2/edit" for 127.0.0.1 at 2013-11-26 11:16:20 -0200
+Processing by ComentariosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mComentario Load (16.7ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 2 LIMIT 1[0m
+  Rendered comentarios/_form.html.erb (101.5ms)
+  Rendered comentarios/edit.html.erb within layouts/application (140.8ms)
+Completed 200 OK in 181ms (Views: 163.2ms | ActiveRecord: 16.7ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:16:20 -0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:16:20 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started PUT "/comentarios/2" for 127.0.0.1 at 2013-11-26 11:16:25 -0200
+Processing by ComentariosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pvQuqqanNrixAuqz3K3jPC9F4WJGfT9yH2b2yc1gnxA=", "comentario"=>{"autor"=>"Débora", "assunto"=>"Pizza Banana", "comentario"=>"É ruim."}, "commit"=>"Update Comentario", "id"=>"2"}
+  [1m[35mComentario Load (0.1ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 2 LIMIT 1
+  [1m[36m (63.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (99.7ms)[0m  UPDATE `comentarios` SET `comentario` = 'É ruim.', `updated_at` = '2013-11-26 13:16:25' WHERE `comentarios`.`id` = 2
+  [1m[36m (263.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/comentarios/2
+Completed 302 Found in 1665ms (ActiveRecord: 426.1ms)
+
+
+Started GET "/comentarios/2" for 127.0.0.1 at 2013-11-26 11:16:27 -0200
+Processing by ComentariosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mComentario Load (0.3ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 2 LIMIT 1
+  Rendered comentarios/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:16:27 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:16:27 -0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-26 11:16:29 -0200
+Processing by ComentariosController#index as HTML
+  [1m[36mComentario Load (0.4ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (4, 2, 3)[0m
+  Rendered comentarios/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 304ms (Views: 10.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:16:29 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:16:29 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=banana" for 127.0.0.1 at 2013-11-26 11:16:33 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"banana"}
+Completed 500 Internal Server Error in 168ms
+
+Tire::Search::SearchRequestFailed (400 : {"error":"SearchPhaseExecutionException[Failed to execute phase [query], all shards failed; shardFailures {[66L3-fjLRmWy43bSUg_3xw][comentarios][1]: RemoteTransportException[[Jocasta][inet[/10.0.0.29:9301]][search/phase/query]]; nested: SearchParseException[[comentarios][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{\"query\":{\"query_string\":{\"query\":\"banana\",\"default_operador\":\"AND\"}},\"filter\":{\"range\":{\"created_at\":{\"lte\":\"2013-11-26T13:16:33Z\"}}},\"size\":10}]]]; nested: QueryParsingException[[comentarios] [query_string] query does not support [default_operador]]; }{[66L3-fjLRmWy43bSUg_3xw][comentarios][0]: RemoteTransportException[[Jocasta][inet[/10.0.0.29:9301]][search/phase/query]]; nested: SearchParseException[[comentarios][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{\"query\":{\"query_string\":{\"query\":\"banana\",\"default_operador\":\"AND\"}},\"filter\":{\"range\":{\"created_at\":{\"lte\":\"2013-11-26T13:16:33Z\"}}},\"size\":10}]]]; nested: QueryParsingException[[comentarios] [query_string] query does not support [default_operador]]; }{[66L3-fjLRmWy43bSUg_3xw][comentarios][2]: RemoteTransportException[[Jocasta][inet[/10.0.0.29:9301]][search/phase/query]]; nested: SearchParseException[[comentarios][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{\"query\":{\"query_string\":{\"query\":\"banana\",\"default_operador\":\"AND\"}},\"filter\":{\"range\":{\"created_at\":{\"lte\":\"2013-11-26T13:16:33Z\"}}},\"size\":10}]]]; nested: QueryParsingException[[comentarios] [query_string] query does not support [default_operador]]; }{[acB71Q45QI6iTZznPHRjFg][comentarios][3]: SearchParseException[[comentarios][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{\"query\":{\"query_string\":{\"query\":\"banana\",\"default_operador\":\"AND\"}},\"filter\":{\"range\":{\"created_at\":{\"lte\":\"2013-11-26T13:16:33Z\"}}},\"size\":10}]]]; nested: QueryParsingException[[comentarios] [query_string] query does not support [default_operador]]; }{[acB71Q45QI6iTZznPHRjFg][comentarios][4]: SearchParseException[[comentarios][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{\"query\":{\"query_string\":{\"query\":\"banana\",\"default_operador\":\"AND\"}},\"filter\":{\"range\":{\"created_at\":{\"lte\":\"2013-11-26T13:16:33Z\"}}},\"size\":10}]]]; nested: QueryParsingException[[comentarios] [query_string] query does not support [default_operador]]; }]","status":400}):
+  app/models/comentario.rb:8:in `search'
+  app/controllers/comentarios_controller.rb:4:in `index'
+
+
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/debora/.rvm/gems/ruby-1.9.3-p194@dellamari/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=banana" for 127.0.0.1 at 2013-11-26 11:16:51 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"banana"}
+  [1m[35mComentario Load (0.2ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (2, 4)
+  Rendered comentarios/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 229ms (Views: 10.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:16:51 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:16:51 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=banana" for 127.0.0.1 at 2013-11-26 11:20:09 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"banana"}
+  [1m[36mComentario Load (0.1ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (2, 4)[0m
+  Rendered comentarios/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 209ms (Views: 10.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:20:09 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:20:09 -0200
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=atum" for 127.0.0.1 at 2013-11-26 11:20:12 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"atum"}
+  [1m[35mComentario Load (15.8ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 3 LIMIT 1
+  Rendered comentarios/index.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 57ms (Views: 7.5ms | ActiveRecord: 15.8ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:20:12 -0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:20:12 -0200
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=luana" for 127.0.0.1 at 2013-11-26 11:20:16 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"luana"}
+  [1m[36mComentario Load (0.1ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 3 LIMIT 1[0m
+  Rendered comentarios/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 182ms (Views: 4.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:20:16 -0200
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:20:16 -0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=" for 127.0.0.1 at 2013-11-26 11:20:20 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>""}
+  [1m[35mComentario Load (0.4ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (2, 4, 3)
+  Rendered comentarios/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 1777ms (Views: 10.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:20:22 -0200
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:20:22 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=pizza" for 127.0.0.1 at 2013-11-26 11:20:26 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"pizza"}
+  [1m[36mComentario Load (0.1ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (4, 2, 3)[0m
+  Rendered comentarios/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 246ms (Views: 13.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:20:26 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:20:26 -0200
+Served asset /application.js - 304 Not Modified (29ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=peixe" for 127.0.0.1 at 2013-11-26 11:20:34 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"peixe"}
+  [1m[35mComentario Load (0.1ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 3 LIMIT 1
+  Rendered comentarios/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 292ms (Views: 4.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:20:34 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:20:34 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=" for 127.0.0.1 at 2013-11-26 11:20:39 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>""}
+  [1m[36mComentario Load (0.1ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (2, 4, 3)[0m
+  Rendered comentarios/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 126ms (Views: 5.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:20:39 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:20:39 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios/new" for 127.0.0.1 at 2013-11-26 11:20:45 -0200
+Processing by ComentariosController#new as HTML
+  Rendered comentarios/_form.html.erb (3.7ms)
+  Rendered comentarios/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:20:45 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:20:45 -0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/comentarios" for 127.0.0.1 at 2013-11-26 11:21:02 -0200
+Processing by ComentariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pvQuqqanNrixAuqz3K3jPC9F4WJGfT9yH2b2yc1gnxA=", "comentario"=>{"autor"=>"Luana", "assunto"=>"Pizza Calabresa", "comentario"=>"Oh pizza de pobre!"}, "commit"=>"Create Comentario"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (203.0ms)[0m  [1mINSERT INTO `comentarios` (`assunto`, `autor`, `comentario`, `created_at`, `updated_at`) VALUES ('Pizza Calabresa', 'Luana', 'Oh pizza de pobre!', '2013-11-26 13:21:02', '2013-11-26 13:21:02')[0m
+  [1m[35m (233.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/comentarios/7
+Completed 302 Found in 614ms (ActiveRecord: 436.9ms)
+
+
+Started GET "/comentarios/7" for 127.0.0.1 at 2013-11-26 11:21:03 -0200
+Processing by ComentariosController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mComentario Load (0.3ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` = 7 LIMIT 1[0m
+  Rendered comentarios/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 3.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:21:03 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:21:03 -0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/comentarios" for 127.0.0.1 at 2013-11-26 11:21:05 -0200
+Processing by ComentariosController#index as HTML
+  [1m[35mComentario Load (0.4ms)[0m  SELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (7, 2, 4, 3)
+  Rendered comentarios/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 83ms (Views: 6.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:21:05 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:21:05 -0200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/comentarios?utf8=%E2%9C%93&query=pizza" for 127.0.0.1 at 2013-11-26 11:21:08 -0200
+Processing by ComentariosController#index as HTML
+  Parameters: {"utf8"=>"✓", "query"=>"pizza"}
+  [1m[36mComentario Load (0.1ms)[0m  [1mSELECT `comentarios`.* FROM `comentarios` WHERE `comentarios`.`id` IN (7, 2, 4, 3)[0m
+  Rendered comentarios/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 247ms (Views: 6.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-11-26 11:21:08 -0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-11-26 11:21:08 -0200
+Served asset /application.js - 304 Not Modified (3ms)
