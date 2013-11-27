@@ -1,32 +1,32 @@
 Dellamari
 
-Vendas de pizza com Dashboard
-App para testes de gems
+App para testes de gems, "negocio ficticio": Pizzaria
 
-Getting Started
+== Getting Started
 
 Criando principais modelos de negócio
 
-Ambiente & Conceitos aplicados
+== Ambiente
+	Rails 3.2
+	Ruby  1.9
+	RVM
+	Git
 
-Ambiente
-
-Rails 3.2
-Ruby  1.9
-RVM
-Git
-Layout Bootstrap
+Layout
+	Bootstrap
 
 Testes
+	Rspec
+	Faker
+	FactoryGirl
 
-Rspec
-Faker
-FactoryGirl
+Dashboad
+	ActiveAdmin
 
-Dashboad com ActiveAdmin
+Busca 
+	ElasticSearch (busca textual)
 
-Busca textual com ElasticSearch
 
-DEPENDÊNCIAS 
+== DEPENDÊNCIAS
 
 Server do ElasticSearch => http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/setup.html
